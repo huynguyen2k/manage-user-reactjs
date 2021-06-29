@@ -1,0 +1,100 @@
+.form {
+  margin-top: 32px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.form-header {
+  padding: 10px 16px;
+  color: white;
+  background-color: #333;
+  font-size: 1.2rem;
+}
+.form-body {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+.form .error-message {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: red;
+  font-style: italic;
+}
+
+.user-info {
+  margin-top: 32px;
+}
+.user-info-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #333;
+  font-size: 1.2rem;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.user-table th {
+  font-weight: 600;
+  text-align: left;
+}
+.user-table th, .user-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+.btn + .btn {
+  margin-left: 16px;
+}
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+.btn-small + .btn-small {
+  margin-left: 8px;
+}
+.btn.btn-success {
+  color: white;
+  background-color: #28a745;
+}
+.btn.btn-primary {
+  color: white;
+  background-color: #007bff;
+}
+.btn.btn-danger {
+  color: white;
+  background-color: #dc3545;
+}
+.btn.btn-warning {
+  color: white;
+  background-color: #ffc107;
+}
+
+/*# sourceMappingURL=style.css.map */
