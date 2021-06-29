@@ -161,7 +161,6 @@ class FormDangKy extends Component {
     }
 
     render() {
-        console.log('FormDangKy')
 
         return (
             <form className="form" method="post" onSubmit={this.handleSubmit}>

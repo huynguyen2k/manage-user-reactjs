@@ -5,7 +5,6 @@ import '../assets/css/style.css'
 
 export default class BaiTapQuanLyNguoiDung extends Component {
     render() {
-        console.log('BaiTapQuanLyNguoiDung')
 
         return (
             <div className="wrapper">

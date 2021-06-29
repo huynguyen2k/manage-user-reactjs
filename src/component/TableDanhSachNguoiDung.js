@@ -26,7 +26,6 @@ class TableDanhSachNguoiDung extends Component {
     }
 
     render() {
-        console.log('TableDanhSachNguoiDung')
 
         return (
             <div className="user-info">
